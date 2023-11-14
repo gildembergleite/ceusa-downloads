@@ -2,7 +2,7 @@ import { Tourney as Font } from 'next/font/google'
 import { ArrowRight } from 'lucide-react'
 import Image from 'next/image'
 
-import book from 'public/images/book.svg'
+import book from 'public/images/book.png'
 import Link from 'next/link'
 
 const font = Font({ subsets: ['latin'], weight: ['100'] })
