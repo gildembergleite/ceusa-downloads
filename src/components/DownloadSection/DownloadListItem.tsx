@@ -6,7 +6,7 @@ import logo from 'public/images/logo-white.svg'
 
 export default function DownloadListItem () {
   return (
-    <div className='flex w-full justify-center items-center pb-5'>
+    <div className='flex w-full justify-center items-center'>
       <div className='flex justify-center items-center w-12 h-12 bg-primary rounded-md'>
         <Image src={logo} alt='' />
       </div>

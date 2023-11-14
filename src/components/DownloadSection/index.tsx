@@ -19,14 +19,16 @@ export default function DownloadSection () {
       </div>
       <div className='flex flex-col justify-center items-center w-full p-8'>
         <h3 className='text-zinc-500 pb-8'>Faça o download dos catálogos Ceusa.</h3>
-        <DownloadListItem />
-        <DownloadListItem />
-        <DownloadListItem />
-        <DownloadListItem />
-        <DownloadListItem />
-        <DownloadListItem />
-        <DownloadListItem />
-        <DownloadListItem />
+        <div className='w-full space-y-5'>
+          <DownloadListItem />
+          <DownloadListItem />
+          <DownloadListItem />
+          <DownloadListItem />
+          <DownloadListItem />
+          <DownloadListItem />
+          <DownloadListItem />
+          <DownloadListItem />
+        </div>
       </div>
     </section>
   )

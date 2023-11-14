@@ -13,13 +13,13 @@ import ListTitle from './ListTitle'
 
 export function MobileMenu () {
   return (
-    <NavigationMenu className='absolute left-4 top-auto'>
+    <NavigationMenu className='z-20'>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuTrigger className='bg-transparent'>
-            <MenuIcon size={24} />
+          <NavigationMenuTrigger className='absolute ml-2 -top-[18px]'>
+            <MenuIcon size={24}/>
           </NavigationMenuTrigger>
-          <NavigationMenuContent className='flex justify-start items-center w-[100vw] p-4'>
+          <NavigationMenuContent className='flex justify-start items-center w-[100vw] bg-zinc-100'>
             <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
               <ListTitle title='a ceusa' />
               <ListItem href="/">Quem somos?</ListItem>

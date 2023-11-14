@@ -13,12 +13,12 @@ export default function Hero () {
 
   return (
     <section className="flex flex-col justify-center items-center w-full bg-zinc-100">
-      <div className={`${font.className} w-full text-9xl text-primary-foreground font-thin h-[calc(50vh)] bg-primary p-8`}>
+      <div className={`${font.className} flex flex-wrap w-full text-9xl justify-center text-primary-foreground font-thin h-[calc(50vh)] bg-primary p-8 overflow-hidden`}>
         {arrayTitle.map((letter, index) => (
           <span key={index}>{letter}</span>
         ))}
       </div>
-      <div className='flex flex-col w-full px justify-center items-center -mt-48 px-4 gap-6 z-50'>
+      <div className='flex flex-col w-full px justify-center items-center -mt-48 px-4 gap-6 z-10'>
         <Image width={280} src={book} alt='Manual da marca' />
         <p className='text-zinc-500 text-sm'>
           Disponibilizamos para download o logo e manual da marca, que possui todas as especificações
