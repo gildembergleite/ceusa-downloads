@@ -12,7 +12,7 @@ React.ComponentPropsWithoutRef<'a'>
         <a
           ref={ref}
           className={cn(
-            'block select-none space-y-1 rounded-md leading-none no-underline outline-none hover:underline my-2',
+            'block select-none space-y-1 rounded-md leading-none no-underline outline-none hover:underline my-4 mx-2',
             className
           )}
           {...props}
