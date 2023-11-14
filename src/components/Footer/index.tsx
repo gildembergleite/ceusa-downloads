@@ -3,6 +3,8 @@ import { ArrowRight } from 'lucide-react'
 import FooterListContainer from './FooterListContainer'
 import NavigationMenuPages from './NavigationMenuPages'
 import SocialMedia from './SocialMedia'
+import Partners from './Partners'
+import MobileFooter from './MobileFooter'
 
 export default function Footer () {
   return (
@@ -23,6 +25,8 @@ export default function Footer () {
       </div>
       <NavigationMenuPages />
       <SocialMedia />
+      <Partners />
+      <MobileFooter />
     </footer>
   )
 }
