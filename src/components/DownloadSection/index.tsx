@@ -22,7 +22,9 @@ export default function DownloadSection () {
         </div>
       </div>
       <div className='flex flex-col justify-center items-center w-full p-8 lg:bg-zinc-100'>
-        <h3 className='text-zinc-500 pb-8'>Faça o download dos catálogos Ceusa.</h3>
+        <h3 className='text-zinc-500 pb-8 lg:pt-8 lg:pb-20'>
+          Faça o download dos catálogos Ceusa.
+        </h3>
         <div className='w-full lg:max-w-5xl space-y-5'>
           <DownloadListItem />
           <DownloadListItem />
