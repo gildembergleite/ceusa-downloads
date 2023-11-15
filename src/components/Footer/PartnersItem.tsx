@@ -12,7 +12,9 @@ export default function PartnersItem ({ primary, src }: PartnersItemProps) {
   return (
     <Link href='/' className='flex justify-center'>
       <Image
-        className={`w-auto h-auto object-contain ${primary ? 'max-w-[65%]' : 'max-w-[100%]'}`}
+        className={`w-auto h-auto object-contain 
+          ${primary ? 'lg:py-8 lg:max-w-[100%] max-w-[65%]' : 'max-w-[100%]'}
+        `}
         width={width}
         height={height}
         src={src}

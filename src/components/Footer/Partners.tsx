@@ -4,7 +4,7 @@ export default function Partners () {
   return (
     <div className='flex flex-col justify-center items-center w-full py-8'>
       <PartnersItem primary src='/partners/logo_dexco.png' />
-      <div className='flex flex-col justify-center items-center w-full pt-6 space-y-2'>
+      <div className='flex flex-col lg:flex-row lg:gap-6 justify-center items-center w-full pt-6 space-y-2'>
         <PartnersItem src='/partners/logo_deca.png' />
         <PartnersItem src='/partners/logo_portinari.png' />
         <PartnersItem src='/partners/logo_duratex.png' />
