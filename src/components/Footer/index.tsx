@@ -21,7 +21,7 @@ export default function Footer () {
         </div>
         <Partners />
         <MobileFooter />
-        <div className='w-full justify-center items-center text-center text-xs text-zinc-100 pt-10 pb-20'>
+        <div className='hidden lg:flex w-full justify-center items-center text-center text-xs text-zinc-100 pt-10 pb-20'>
           <Link href='/'>
             Política de Privacidade
           </Link>
